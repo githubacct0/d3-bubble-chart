@@ -1,0 +1,64 @@
+.equal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .login-page{
+    background: linear-gradient(180deg, #A74CF2 22.2%, #7565FB 98.61%), #D8D8D8;
+    height: auto;
+    min-height: 100%;
+}
+
+.image-box2{ padding: 20px; z-index: 999;}
+
+.image-box{
+  min-width: 100px;
+  // max-width: 600px;
+  width: auto;
+  min-height: 100px;
+  height: max-content;
+  // max-height: 600px;
+  
+
+}
+
+.graphsvg{
+  min-width: 100px;
+  max-width: 600px;
+  width: auto;
+  min-height: 300px;
+  height: max-content;
+  max-height: 600px;
+}
+
+// .graphBox{ display: none; }
+
+.p-b-15{ padding-bottom: 15px;}
+
+.question-list{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  list-style: none;
+  li{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    &:hover{
+      background-color: #f3f3f3;
+      cursor: pointer;
+    }
+  }
+}
+
+#graphBox{
+  position: absolute;
+  display: none;
+}

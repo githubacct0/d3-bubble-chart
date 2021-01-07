@@ -1,0 +1,443 @@
+{
+    "children": [
+        {
+            "children": [
+
+              {
+                  "children": [
+                      {
+                          "color": "#FAB482",
+                          "element": "topic",
+                          "id": 10036,
+                          "name": "E",
+                          "progress": false,
+                          "shortname": "E",
+                          "size": 400
+                      },
+                      {
+                          "color": "#FFF59B",
+                          "element": "topic",
+                          "id": 10037,
+                          "name": "R",
+                          "progress": false,
+                          "shortname": "R",
+                          "size": 400
+                      },
+                      {
+                          "color": "#FAB482",
+                          "element": "topic",
+                          "id": 10038,
+                          "name": "A",
+                          "progress": true,
+                          "shortname": "A",
+                          "size": 400
+                      },
+                      {
+                          "color": "#C3DCB9",
+                          "element": "topic",
+                          "id": 10039,
+                          "name": "S",
+                          "progress": true,
+                          "shortname": "S",
+                          "size": 400
+                      },
+                      {
+                          "color": "#FFF59B",
+                          "element": "topic",
+                          "id": 10040,
+                          "name": "C",
+                          "progress": false,
+                          "shortname": "C",
+                          "size": 400
+                      },
+                      {
+                          "color": "#DECDDC",
+                          "element": "topic",
+                          "id": 10041,
+                          "name": "T",
+                          "progress": true,
+                          "shortname": "T",
+                          "size": 400
+                      },
+                      {
+                          "color": "#C3DCB9",
+                          "element": "topic",
+                          "id": 10042,
+                          "name": "I",
+                          "progress": false,
+                          "shortname": "I",
+                          "size": 400
+                      },
+                      {
+                          "color": "#DECDDC",
+                          "element": "topic",
+                          "id": 10043,
+                          "name": "S",
+                          "progress": true,
+                          "shortname": "S",
+                          "size": 400
+                      },
+                      {
+                          "color": "#FFF59B",
+                          "element": "topic",
+                          "id": 10044,
+                          "name": "I",
+                          "progress": false,
+                          "shortname": "I",
+                          "size": 400
+                      },
+                      {
+                          "color": "#C3DCB9",
+                          "element": "topic",
+                          "id": 10045,
+                          "name": "M",
+                          "progress": true,
+                          "shortname": "M",
+                          "size": 400
+                      },
+                      {
+                          "color": "#C3DCB9",
+                          "element": "topic",
+                          "id": 10046,
+                          "name": "P",
+                          "progress": true,
+                          "shortname": "P",
+                          "size": 400
+                      }
+                  ],
+                  "color": "#FFF59B",
+                  "element": "topic",
+                  "id": 10047,
+                  "name": "H",
+                  "progress": false,
+                  "shortname": "H",
+                  "size": 400
+              },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10001,
+                    "name": "C",
+                    "progress": true,
+                    "shortname": "C",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10002,
+                    "name": "A",
+                    "progress": false,
+                    "shortname": "A",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10003,
+                    "name": "A",
+                    "progress": true,
+                    "shortname": "A",
+                    "size": 400
+                },
+                {
+                    "color": "#FFF59B",
+                    "element": "topic",
+                    "id": 10004,
+                    "name": "A",
+                    "progress": true,
+                    "shortname": "A",
+                    "size": 400
+                },
+                {
+                    "color": "#FAB482",
+                    "element": "topic",
+                    "id": 10005,
+                    "name": "H",
+                    "progress": true,
+                    "shortname": "H",
+                    "size": 400
+                },
+                {
+                    "color": "#FFF59B",
+                    "element": "topic",
+                    "id": 10006,
+                    "name": "O",
+                    "progress": true,
+                    "shortname": "O",
+                    "size": 400
+                },
+                {
+                    "color": "#FAB482",
+                    "element": "topic",
+                    "id": 10007,
+                    "name": "P",
+                    "progress": false,
+                    "shortname": "P",
+                    "size": 400
+                },
+                {
+                    "color": "#DECDDC",
+                    "element": "topic",
+                    "id": 10008,
+                    "name": "G",
+                    "progress": false,
+                    "shortname": "G",
+                    "size": 400
+                },
+                {
+                    "color": "#FAB482",
+                    "element": "topic",
+                    "id": 10009,
+                    "name": "P",
+                    "progress": true,
+                    "shortname": "P",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10010,
+                    "name": "C",
+                    "progress": true,
+                    "shortname": "C",
+                    "size": 400
+                }
+            ],
+            "color": "#FAB482",
+            "element": "topic",
+            "id": 10011,
+            "name": "T",
+            "progress": false,
+            "shortname": "T",
+            "size": 400
+        },
+        {
+            "children": [
+                {
+                    "color": "#FFF59B",
+                    "element": "topic",
+                    "id": 10012,
+                    "name": "B",
+                    "progress": false,
+                    "shortname": "B",
+                    "size": 400
+                },
+                {
+                    "color": "#FFF59B",
+                    "element": "topic",
+                    "id": 10013,
+                    "name": "E",
+                    "progress": true,
+                    "shortname": "E",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10014,
+                    "name": "N",
+                    "progress": true,
+                    "shortname": "N",
+                    "size": 400
+                },
+                {
+                    "color": "#FAB482",
+                    "element": "topic",
+                    "id": 10015,
+                    "name": "M",
+                    "progress": true,
+                    "shortname": "M",
+                    "size": 400
+                },
+                {
+                    "color": "#FAB482",
+                    "element": "topic",
+                    "id": 10016,
+                    "name": "B",
+                    "progress": false,
+                    "shortname": "B",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10017,
+                    "name": "Z",
+                    "progress": false,
+                    "shortname": "Z",
+                    "size": 400
+                },
+                {
+                    "color": "#FAB482",
+                    "element": "topic",
+                    "id": 10018,
+                    "name": "E",
+                    "progress": false,
+                    "shortname": "E",
+                    "size": 400
+                },
+                {
+                    "color": "#FAB482",
+                    "element": "topic",
+                    "id": 10019,
+                    "name": "E",
+                    "progress": false,
+                    "shortname": "E",
+                    "size": 400
+                },
+                {
+                    "color": "#FFF59B",
+                    "element": "topic",
+                    "id": 10020,
+                    "name": "B",
+                    "progress": true,
+                    "shortname": "B",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10021,
+                    "name": "H",
+                    "progress": true,
+                    "shortname": "H",
+                    "size": 400
+                }
+            ],
+            "color": "#DECDDC",
+            "element": "topic",
+            "id": 10022,
+            "name": "T",
+            "progress": false,
+            "shortname": "T",
+            "size": 400
+        },
+        {
+            "children": [
+                {
+                    "color": "#FAB482",
+                    "element": "topic",
+                    "id": 10023,
+                    "name": "A",
+                    "progress": false,
+                    "shortname": "A",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10024,
+                    "name": "M",
+                    "progress": true,
+                    "shortname": "M",
+                    "size": 400
+                },
+                {
+                    "color": "#FFF59B",
+                    "element": "topic",
+                    "id": 10025,
+                    "name": "P",
+                    "progress": false,
+                    "shortname": "P",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10026,
+                    "name": "L",
+                    "progress": true,
+                    "shortname": "L",
+                    "size": 400
+                },
+                {
+                    "color": "#DECDDC",
+                    "element": "topic",
+                    "id": 10027,
+                    "name": "S",
+                    "progress": true,
+                    "shortname": "S",
+                    "size": 400
+                },
+                {
+                    "color": "#FFF59B",
+                    "element": "topic",
+                    "id": 10028,
+                    "name": "P",
+                    "progress": false,
+                    "shortname": "P",
+                    "size": 400
+                },
+                {
+                    "color": "#DECDDC",
+                    "element": "topic",
+                    "id": 10029,
+                    "name": "E",
+                    "progress": true,
+                    "shortname": "E",
+                    "size": 400
+                },
+                {
+                    "color": "#FFF59B",
+                    "element": "topic",
+                    "id": 10030,
+                    "name": "H",
+                    "progress": true,
+                    "shortname": "H",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10031,
+                    "name": "H",
+                    "progress": false,
+                    "shortname": "H",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10032,
+                    "name": "C",
+                    "progress": false,
+                    "shortname": "C",
+                    "size": 400
+                },
+                {
+                    "color": "#DECDDC",
+                    "element": "topic",
+                    "id": 10033,
+                    "name": "C",
+                    "progress": false,
+                    "shortname": "C",
+                    "size": 400
+                },
+                {
+                    "color": "#C3DCB9",
+                    "element": "topic",
+                    "id": 10034,
+                    "name": "L",
+                    "progress": false,
+                    "shortname": "L",
+                    "size": 400
+                }
+            ],
+            "color": "#FAB482",
+            "element": "topic",
+            "id": 10035,
+            "name": "H",
+            "progress": true,
+            "shortname": "H",
+            "size": 400
+        }
+    ],
+    "color": "#C3DCB9",
+    "element": "course",
+    "id": 10000,
+    "name": "H",
+    "progress": true,
+    "shortname": "H",
+    "size": 400
+}
