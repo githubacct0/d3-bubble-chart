@@ -62,3 +62,21 @@
   position: absolute;
   display: none;
 }
+
+.add-container {
+  text-align: right;
+  display: flex;
+  padding: 4px;
+  // position: absolute;
+  & * {
+    margin: 1px;
+  }
+  input {
+    width: 250px;
+    display: inline-block;
+  }
+}
+
+.second-container {
+  top: 4%;
+}

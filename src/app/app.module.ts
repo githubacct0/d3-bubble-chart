@@ -1,36 +1,37 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { D3Service } from 'd3-ng2-service';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
-import { HttpModule } from '@angular/http';
-import { D3Service } from 'd3-ng2-service';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ModalModule } from 'ngx-bootstrap';
-import { NgbActiveModal, NgbModal,NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {
+  NgbActiveModal,
+  NgbModal,
+  NgbModule,
+} from '@ng-bootstrap/ng-bootstrap';
 
-import  { FlareJsonService } from "./services/flare-json.service";
+import { FlareJsonService } from './services/flare-json.service';
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent        
-    
-  ],
+  declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpModule,
     FontAwesomeModule,
     NgbModule,
-    ModalModule.forRoot()
-    
-  
+    ModalModule.forRoot(),
   ],
-  providers: [D3Service , FlareJsonService],
+  providers: [D3Service, FlareJsonService],
   bootstrap: [AppComponent],
-  entryComponents:[]
+  entryComponents: [],
 })
-export class AppModule { }
+export class AppModule {}

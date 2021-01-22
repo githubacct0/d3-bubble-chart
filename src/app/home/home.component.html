@@ -1,32 +1,42 @@
 <div class=" h-100 login-page" (click)="hideToolTip()">
-    <div class=" h-100 d-flex justify-content-center align-items-center">
-      
-      <div class="image-box"   [ngStyle]="{ 'width' : innerHeight+'px' , 'height' : innerHeight+'px'}"  >
-        <div class="img"><img src="./assets/images/earth.svg" alt="" [ngStyle]="{'display' :( !showgraphv ? 'block' : 'none' ) , 'width' : innerHeight+'px' , 'height' : innerHeight+'px'}" ></div>
-        
-      </div>
-
-      <div id="graphBox" [ngStyle]="{'display' :( showgraphv ? 'block' : 'none' ) }"  >
-        <svg id="graphchart" (mouseenter)="showgraph()"  ></svg>
-      </div>
-
-    </div>
+  <div class="add-container">
+    <input id="nName" #nName type="text" class="form-control" [(ngModel)]="nodeName">
+    <button type="button" class="btn btn-light" (click)="addNode()">Add</button>
+    <button type="button" class="btn btn-primary" (click)="addTest()">Add Test</button>
   </div>
-
-
-
-  <ng-template #memuModalPopupTemp>
-    <div class="modal-header">
-      <h4 class="modal-title pull-left">{{modalName}}</h4>
-      <button type="button" class="close pull-right" aria-label="Close" (click)="hidememuModalPopup()">
-        <span aria-hidden="true">&times;</span>
-      </button>
+  <div class="add-container second-container">
+    <input id="idSerch" #idSerch type="text" class="form-control" [(ngModel)]="nodeId">
+    <button type="button" class="btn btn-primary" (click)="searchNode($event)">Search</button>
+    <button type="button" class="btn btn-warning" (click)="addDelete()">Delete</button>
+  </div>
+  <div class=" h-100 d-flex justify-content-center align-items-center">
+    
+    <div class="image-box"   [ngStyle]="{ 'width' : innerHeight+'px' , 'height' : innerHeight+'px'}"  >
+      <div class="img"><img src="./assets/images/earth.svg" alt="" [ngStyle]="{'display' :( !showgraphv ? 'block' : 'none' ) , 'width' : innerHeight+'px' , 'height' : innerHeight+'px'}" ></div>
+      
     </div>
-    <div class="modal-body">
-      <ul class="question-list">
-        <ng-container *ngFor="let menu of learningprocess;">
-          <li>{{menu}}</li>
-        </ng-container>
-      </ul>
+
+    <div id="graphBox" [ngStyle]="{'display' :( showgraphv ? 'block' : 'none' ) }"  >
+      <svg id="graphchart" (mouseenter)="showgraph()"  ></svg>
     </div>
-  </ng-template>
+
+  </div>
+</div>
+
+
+
+<ng-template #memuModalPopupTemp>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">{{modalName}}</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="hidememuModalPopup()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <ul class="question-list">
+      <ng-container *ngFor="let menu of learningprocess;">
+        <li>{{menu}}</li>
+      </ng-container>
+    </ul>
+  </div>
+</ng-template>
